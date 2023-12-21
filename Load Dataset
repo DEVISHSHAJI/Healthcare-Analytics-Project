@@ -1,0 +1,5 @@
+# Assuming you have a CSV file named 'healthcare_data.csv'
+data = pd.read_csv('healthcare_data.csv')
+
+# Explore the dataset and perform necessary preprocessing
+# For simplicity, you can handle missing values, encode categorical variables, etc.
