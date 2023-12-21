@@ -3,8 +3,16 @@
 **Goals:**
 The goal of this healthcare analytics project is to predict patient readmission using a machine learning model. Predicting whether a patient is likely to be readmitted to the hospital after an initial admission can be valuable for healthcare providers in optimizing patient care and resource allocation.
 
+
+
+
+
 **Explanation:**
 The project uses a dataset containing various patient attributes, such as age, number of lab procedures, number of medications, time spent in the hospital, and other relevant features. The target variable is whether a patient is readmitted or not. A RandomForestClassifier is employed to build a predictive model.
+
+
+
+
 
 **Instructions for Running the Code:**
 Clone the Repository:
@@ -18,6 +26,9 @@ git clone https://github.com/your-username/healthcare-analytics-project.git
 Make sure you have Python installed on your machine. Additionally, install the required libraries by running:
 Copy code
 pip install pandas numpy scikit-learn
+
+
+
 **Download the Dataset:**
 
 **Obtain the healthcare dataset (e.g., 'healthcare_data.csv') and place it in the project directory.
