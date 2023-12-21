@@ -1,0 +1,10 @@
+# Handle missing values
+data = data.dropna()
+
+# Encode categorical variables
+data = pd.get_dummies(data, columns=['gender', 'admission_type'])
+
+# Feature selection
+features = ['age', 'num_lab_procedures', 'num_medications', 'time_in_hospital', '...']
+X = data[features]
+y = data['readmitted']
